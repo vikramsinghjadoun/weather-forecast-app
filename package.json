@@ -1,0 +1,23 @@
+{
+  "name": "weather-forcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramsinghjadoun/weather-forecast-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikramsinghjadoun/weather-forecast-app/issues"
+  },
+  "homepage": "https://github.com/vikramsinghjadoun/weather-forecast-app#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
