@@ -41,7 +41,7 @@ export const getWeatherFromCoords = async locationObj => {
     const weatherJson = await weatherStream.json();
     return weatherJson;
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 
@@ -72,7 +72,7 @@ export const getCoordsFromApi = async (entryText, units) => {
     //console.log(jsonData);
     return jsonData;
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 
