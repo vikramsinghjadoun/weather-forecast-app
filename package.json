@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/vikramsinghjadoun/weather-forecast-app#readme",
   "dependencies": {
-    "netlify-cli": "^3.29.14",
     "node-fetch": "^2.6.1"
   }
 }
